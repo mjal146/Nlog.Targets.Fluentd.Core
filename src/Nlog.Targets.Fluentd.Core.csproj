@@ -4,8 +4,9 @@
         <AssemblyName>Nlog.Targets.Fluentd.Core</AssemblyName>
         <RootNamespace>Nlog.Targets.Fluentd.Core</RootNamespace>
         <PackageId>Nlog.Targets.Fluentd.Core</PackageId>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <FileVersion>1.0.0</FileVersion>
+        <Title>Fluentd Nlog Target </Title>
     </PropertyGroup>
     <PropertyGroup>
         <Authors>Mohammad Javad Akbari</Authors>
@@ -14,9 +15,13 @@
         <Description>
             Nlog Target for Fluentd
         </Description>
-        <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+        <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
         <PackageTags>Nlog;fluentd;sink;sinks;nlog target;nlog sink; fluentd target</PackageTags> 
-        <PackageProjectUrl>https://nlog-project.org/</PackageProjectUrl>
+        <PackageProjectUrl>https://nlog-project.org/</PackageProjectUrl> 
+        <RepositoryUrl>https://github.com/mjal146/Nlog.Targets.Fluentd.Core</RepositoryUrl> 
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild> 
+        <Copyright></Copyright> 
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="NLog" Version="4.7.9" />

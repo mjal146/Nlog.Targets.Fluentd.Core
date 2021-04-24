@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5EA1ECDF-9531-4252-83D8-7D17E67803B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nlog.Targets.Fluentd.Core", "src\Nlog.Targets.Fluentd.Core.csproj", "{5D5B341B-5030-4C14-A61B-E543CC6D3126}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{0C68E495-E7B6-4E5A-AAF0-F6FB0F7932DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nlog.Targets.Fluentd.Core.Demo", "Nlog.Targets.Fluentd.Core.Demo\Nlog.Targets.Fluentd.Core.Demo.csproj", "{B80EA443-3A1F-4200-BA5A-B8F58A71C9DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D5B341B-5030-4C14-A61B-E543CC6D3126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5B341B-5030-4C14-A61B-E543CC6D3126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5B341B-5030-4C14-A61B-E543CC6D3126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5B341B-5030-4C14-A61B-E543CC6D3126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80EA443-3A1F-4200-BA5A-B8F58A71C9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80EA443-3A1F-4200-BA5A-B8F58A71C9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80EA443-3A1F-4200-BA5A-B8F58A71C9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80EA443-3A1F-4200-BA5A-B8F58A71C9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1989525C-1374-49D7-A59B-6BCC10FCDF84}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D5B341B-5030-4C14-A61B-E543CC6D3126} = {5EA1ECDF-9531-4252-83D8-7D17E67803B8}
+		{B80EA443-3A1F-4200-BA5A-B8F58A71C9DF} = {0C68E495-E7B6-4E5A-AAF0-F6FB0F7932DF}
+	EndGlobalSection
+EndGlobal
