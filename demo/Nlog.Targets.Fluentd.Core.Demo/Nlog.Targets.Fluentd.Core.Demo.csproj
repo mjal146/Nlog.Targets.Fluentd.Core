@@ -10,7 +10,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\Nlog.Targets.Fluentd.Core.csproj" />
+      <ProjectReference Include="..\..\src\Nlog.Targets.Fluentd.Core.csproj" />
     </ItemGroup>
 
 </Project>

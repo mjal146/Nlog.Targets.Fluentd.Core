@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nlog.Targets.Fluentd.Core",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{0C68E495-E7B6-4E5A-AAF0-F6FB0F7932DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nlog.Targets.Fluentd.Core.Demo", "Nlog.Targets.Fluentd.Core.Demo\Nlog.Targets.Fluentd.Core.Demo.csproj", "{B80EA443-3A1F-4200-BA5A-B8F58A71C9DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nlog.Targets.Fluentd.Core.Demo", "demo\Nlog.Targets.Fluentd.Core.Demo\Nlog.Targets.Fluentd.Core.Demo.csproj", "{B80EA443-3A1F-4200-BA5A-B8F58A71C9DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
