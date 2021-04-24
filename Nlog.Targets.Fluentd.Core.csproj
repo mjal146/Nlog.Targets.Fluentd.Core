@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>netstandard1.3;net45</TargetFrameworks>
+        <AssemblyName>Nlog.Targets.Fluentd.Core</AssemblyName>
+        <RootNamespace>Nlog.Targets.Fluentd.Core</RootNamespace>
+        <PackageId>Nlog.Targets.Fluentd.Core</PackageId>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Authors>Mohammad Javad Akbari</Authors>
+        <AssemblyTitle>Nlog.Targets.Fluentd.Core</AssemblyTitle>
+        <PackageReleaseNotes>1.0.0</PackageReleaseNotes> 
+        <Description>
+            Nlog Target for Fluentd
+        </Description>
+        <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+        <PackageTags>Nlog;fluentd;sink;sinks;nlog target;nlog sink; fluentd target</PackageTags> 
+        <PackageProjectUrl>https://nlog-project.org/</PackageProjectUrl>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="NLog" Version="4.7.9" />
+        <PackageReference Include="MsgPack.Cli" Version="1.0.1" />
+    </ItemGroup>
+
+
+</Project>
